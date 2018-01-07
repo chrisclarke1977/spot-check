@@ -1,9 +1,53 @@
 <html>
     <head>
         <title>Recipe</title>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            #container {
+                width: 100%;
+                height: 1024px;
+                display: flex;
+                align-items: stretch;
+            }
+            #title {
+                -webkit-transform: rotate(-90deg);
+                color: white;
+                position: fixed;
+                top: 6%;
+                left: 5%;
+                font-size: 313%;
+            }
+            #sidenote {
+                width: 10%;
+                margin-right: 1%;
+                background: red;
+                color: white;
+                padding-top: 10%;
+            }
+            #sidenote-time ul {
+                list-style: none;
+            }
+            #sidenote-nutrition ul {
+                list-style: none;
+            }
+            #recipe {
+                width: 38%;
+                margin-right: 1%;
+            }
+            #image {
+                width: 50%;
+            }
+            #recipe-title {
+                font-size: 300%;
+            }
+        </style>
     </head>
     <body>
         <div id="container">
+            <div id="title">swiss</div>
             <div id="sidenote">
                 <div id="sidenote-time">
                     <ul>
@@ -42,7 +86,8 @@
                 </div>
             </div>
             <div id="recipe">
-                <div id="recipe-title">Title</div>
+                <div id="recipe-title">CHICKEN</div>
+                <div id="recipe-subtitle">CORDON BLEU</div>
                 <div id="recipe-desc">description</div>
                 <div id="recipe-instructions">
                   <div id="instructions-prep">
